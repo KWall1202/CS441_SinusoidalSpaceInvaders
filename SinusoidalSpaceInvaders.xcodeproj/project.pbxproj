@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A53D06B42344E14600FC257D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A53D06B32344E14600FC257D /* AppDelegate.m */; };
+		A53D06B62344E14600FC257D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A53D06B52344E14600FC257D /* GameScene.sks */; };
+		A53D06B82344E14600FC257D /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = A53D06B72344E14600FC257D /* Actions.sks */; };
+		A53D06BB2344E14600FC257D /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = A53D06BA2344E14600FC257D /* GameScene.m */; };
+		A53D06BE2344E14600FC257D /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A53D06BD2344E14600FC257D /* GameViewController.m */; };
+		A53D06C12344E14600FC257D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A53D06BF2344E14600FC257D /* Main.storyboard */; };
+		A53D06C32344E14700FC257D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A53D06C22344E14700FC257D /* Assets.xcassets */; };
+		A53D06C62344E14700FC257D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A53D06C42344E14700FC257D /* LaunchScreen.storyboard */; };
+		A53D06C92344E14700FC257D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A53D06C82344E14700FC257D /* main.m */; };
+		A53D06D32344E14700FC257D /* SinusoidalSpaceInvadersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A53D06D22344E14700FC257D /* SinusoidalSpaceInvadersTests.m */; };
+		A53D06DE2344E14700FC257D /* SinusoidalSpaceInvadersUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A53D06DD2344E14700FC257D /* SinusoidalSpaceInvadersUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A53D06CF2344E14700FC257D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A53D06A72344E14600FC257D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A53D06AE2344E14600FC257D;
+			remoteInfo = SinusoidalSpaceInvaders;
+		};
+		A53D06DA2344E14700FC257D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A53D06A72344E14600FC257D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A53D06AE2344E14600FC257D;
+			remoteInfo = SinusoidalSpaceInvaders;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A53D06AF2344E14600FC257D /* SinusoidalSpaceInvaders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SinusoidalSpaceInvaders.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A53D06B22344E14600FC257D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A53D06B32344E14600FC257D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A53D06B52344E14600FC257D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		A53D06B72344E14600FC257D /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		A53D06B92344E14600FC257D /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		A53D06BA2344E14600FC257D /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		A53D06BC2344E14600FC257D /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		A53D06BD2344E14600FC257D /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		A53D06C02344E14600FC257D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A53D06C22344E14700FC257D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A53D06C52344E14700FC257D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A53D06C72344E14700FC257D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A53D06C82344E14700FC257D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A53D06CE2344E14700FC257D /* SinusoidalSpaceInvadersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SinusoidalSpaceInvadersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A53D06D22344E14700FC257D /* SinusoidalSpaceInvadersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SinusoidalSpaceInvadersTests.m; sourceTree = "<group>"; };
+		A53D06D42344E14700FC257D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A53D06D92344E14700FC257D /* SinusoidalSpaceInvadersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SinusoidalSpaceInvadersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A53D06DD2344E14700FC257D /* SinusoidalSpaceInvadersUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SinusoidalSpaceInvadersUITests.m; sourceTree = "<group>"; };
+		A53D06DF2344E14700FC257D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A53D06AC2344E14600FC257D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53D06CB2344E14700FC257D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53D06D62344E14700FC257D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A53D06A62344E14600FC257D = {
+			isa = PBXGroup;
+			children = (
+				A53D06B12344E14600FC257D /* SinusoidalSpaceInvaders */,
+				A53D06D12344E14700FC257D /* SinusoidalSpaceInvadersTests */,
+				A53D06DC2344E14700FC257D /* SinusoidalSpaceInvadersUITests */,
+				A53D06B02344E14600FC257D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A53D06B02344E14600FC257D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A53D06AF2344E14600FC257D /* SinusoidalSpaceInvaders.app */,
+				A53D06CE2344E14700FC257D /* SinusoidalSpaceInvadersTests.xctest */,
+				A53D06D92344E14700FC257D /* SinusoidalSpaceInvadersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A53D06B12344E14600FC257D /* SinusoidalSpaceInvaders */ = {
+			isa = PBXGroup;
+			children = (
+				A53D06B22344E14600FC257D /* AppDelegate.h */,
+				A53D06B32344E14600FC257D /* AppDelegate.m */,
+				A53D06B52344E14600FC257D /* GameScene.sks */,
+				A53D06B72344E14600FC257D /* Actions.sks */,
+				A53D06B92344E14600FC257D /* GameScene.h */,
+				A53D06BA2344E14600FC257D /* GameScene.m */,
+				A53D06BC2344E14600FC257D /* GameViewController.h */,
+				A53D06BD2344E14600FC257D /* GameViewController.m */,
+				A53D06BF2344E14600FC257D /* Main.storyboard */,
+				A53D06C22344E14700FC257D /* Assets.xcassets */,
+				A53D06C42344E14700FC257D /* LaunchScreen.storyboard */,
+				A53D06C72344E14700FC257D /* Info.plist */,
+				A53D06C82344E14700FC257D /* main.m */,
+			);
+			path = SinusoidalSpaceInvaders;
+			sourceTree = "<group>";
+		};
+		A53D06D12344E14700FC257D /* SinusoidalSpaceInvadersTests */ = {
+			isa = PBXGroup;
+			children = (
+				A53D06D22344E14700FC257D /* SinusoidalSpaceInvadersTests.m */,
+				A53D06D42344E14700FC257D /* Info.plist */,
+			);
+			path = SinusoidalSpaceInvadersTests;
+			sourceTree = "<group>";
+		};
+		A53D06DC2344E14700FC257D /* SinusoidalSpaceInvadersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A53D06DD2344E14700FC257D /* SinusoidalSpaceInvadersUITests.m */,
+				A53D06DF2344E14700FC257D /* Info.plist */,
+			);
+			path = SinusoidalSpaceInvadersUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A53D06AE2344E14600FC257D /* SinusoidalSpaceInvaders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A53D06E22344E14700FC257D /* Build configuration list for PBXNativeTarget "SinusoidalSpaceInvaders" */;
+			buildPhases = (
+				A53D06AB2344E14600FC257D /* Sources */,
+				A53D06AC2344E14600FC257D /* Frameworks */,
+				A53D06AD2344E14600FC257D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SinusoidalSpaceInvaders;
+			productName = SinusoidalSpaceInvaders;
+			productReference = A53D06AF2344E14600FC257D /* SinusoidalSpaceInvaders.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A53D06CD2344E14700FC257D /* SinusoidalSpaceInvadersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A53D06E52344E14700FC257D /* Build configuration list for PBXNativeTarget "SinusoidalSpaceInvadersTests" */;
+			buildPhases = (
+				A53D06CA2344E14700FC257D /* Sources */,
+				A53D06CB2344E14700FC257D /* Frameworks */,
+				A53D06CC2344E14700FC257D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A53D06D02344E14700FC257D /* PBXTargetDependency */,
+			);
+			name = SinusoidalSpaceInvadersTests;
+			productName = SinusoidalSpaceInvadersTests;
+			productReference = A53D06CE2344E14700FC257D /* SinusoidalSpaceInvadersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A53D06D82344E14700FC257D /* SinusoidalSpaceInvadersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A53D06E82344E14700FC257D /* Build configuration list for PBXNativeTarget "SinusoidalSpaceInvadersUITests" */;
+			buildPhases = (
+				A53D06D52344E14700FC257D /* Sources */,
+				A53D06D62344E14700FC257D /* Frameworks */,
+				A53D06D72344E14700FC257D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A53D06DB2344E14700FC257D /* PBXTargetDependency */,
+			);
+			name = SinusoidalSpaceInvadersUITests;
+			productName = SinusoidalSpaceInvadersUITests;
+			productReference = A53D06D92344E14700FC257D /* SinusoidalSpaceInvadersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A53D06A72344E14600FC257D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Kevin Wallace";
+				TargetAttributes = {
+					A53D06AE2344E14600FC257D = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					A53D06CD2344E14700FC257D = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = A53D06AE2344E14600FC257D;
+					};
+					A53D06D82344E14700FC257D = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = A53D06AE2344E14600FC257D;
+					};
+				};
+			};
+			buildConfigurationList = A53D06AA2344E14600FC257D /* Build configuration list for PBXProject "SinusoidalSpaceInvaders" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A53D06A62344E14600FC257D;
+			productRefGroup = A53D06B02344E14600FC257D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A53D06AE2344E14600FC257D /* SinusoidalSpaceInvaders */,
+				A53D06CD2344E14700FC257D /* SinusoidalSpaceInvadersTests */,
+				A53D06D82344E14700FC257D /* SinusoidalSpaceInvadersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A53D06AD2344E14600FC257D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53D06C12344E14600FC257D /* Main.storyboard in Resources */,
+				A53D06B62344E14600FC257D /* GameScene.sks in Resources */,
+				A53D06C32344E14700FC257D /* Assets.xcassets in Resources */,
+				A53D06C62344E14700FC257D /* LaunchScreen.storyboard in Resources */,
+				A53D06B82344E14600FC257D /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53D06CC2344E14700FC257D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53D06D72344E14700FC257D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A53D06AB2344E14600FC257D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53D06BB2344E14600FC257D /* GameScene.m in Sources */,
+				A53D06BE2344E14600FC257D /* GameViewController.m in Sources */,
+				A53D06C92344E14700FC257D /* main.m in Sources */,
+				A53D06B42344E14600FC257D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53D06CA2344E14700FC257D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53D06D32344E14700FC257D /* SinusoidalSpaceInvadersTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53D06D52344E14700FC257D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53D06DE2344E14700FC257D /* SinusoidalSpaceInvadersUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A53D06D02344E14700FC257D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A53D06AE2344E14600FC257D /* SinusoidalSpaceInvaders */;
+			targetProxy = A53D06CF2344E14700FC257D /* PBXContainerItemProxy */;
+		};
+		A53D06DB2344E14700FC257D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A53D06AE2344E14600FC257D /* SinusoidalSpaceInvaders */;
+			targetProxy = A53D06DA2344E14700FC257D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A53D06BF2344E14600FC257D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A53D06C02344E14600FC257D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A53D06C42344E14700FC257D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A53D06C52344E14700FC257D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A53D06E02344E14700FC257D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A53D06E12344E14700FC257D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A53D06E32344E14700FC257D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SinusoidalSpaceInvaders/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KevinWallace.SinusoidalSpaceInvaders;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A53D06E42344E14700FC257D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SinusoidalSpaceInvaders/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KevinWallace.SinusoidalSpaceInvaders;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A53D06E62344E14700FC257D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SinusoidalSpaceInvadersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KevinWallace.SinusoidalSpaceInvadersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SinusoidalSpaceInvaders.app/SinusoidalSpaceInvaders";
+			};
+			name = Debug;
+		};
+		A53D06E72344E14700FC257D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SinusoidalSpaceInvadersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KevinWallace.SinusoidalSpaceInvadersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SinusoidalSpaceInvaders.app/SinusoidalSpaceInvaders";
+			};
+			name = Release;
+		};
+		A53D06E92344E14700FC257D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SinusoidalSpaceInvadersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KevinWallace.SinusoidalSpaceInvadersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SinusoidalSpaceInvaders;
+			};
+			name = Debug;
+		};
+		A53D06EA2344E14700FC257D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SinusoidalSpaceInvadersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KevinWallace.SinusoidalSpaceInvadersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SinusoidalSpaceInvaders;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A53D06AA2344E14600FC257D /* Build configuration list for PBXProject "SinusoidalSpaceInvaders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53D06E02344E14700FC257D /* Debug */,
+				A53D06E12344E14700FC257D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A53D06E22344E14700FC257D /* Build configuration list for PBXNativeTarget "SinusoidalSpaceInvaders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53D06E32344E14700FC257D /* Debug */,
+				A53D06E42344E14700FC257D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A53D06E52344E14700FC257D /* Build configuration list for PBXNativeTarget "SinusoidalSpaceInvadersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53D06E62344E14700FC257D /* Debug */,
+				A53D06E72344E14700FC257D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A53D06E82344E14700FC257D /* Build configuration list for PBXNativeTarget "SinusoidalSpaceInvadersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53D06E92344E14700FC257D /* Debug */,
+				A53D06EA2344E14700FC257D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A53D06A72344E14600FC257D /* Project object */;
+}
