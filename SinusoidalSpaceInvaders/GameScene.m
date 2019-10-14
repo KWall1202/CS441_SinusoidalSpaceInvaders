@@ -9,7 +9,7 @@
 #import "GameScene.h"
 
 @implementation GameScene {
-    SKShapeNode *playerNode;
+    SKSpriteNode *playerNode;
     SKLabelNode *_label;
     float x;
     float y;
@@ -17,6 +17,7 @@
 
 - (void)didMoveToView:(SKView *)view {
     // Setup your scene here
+    playerNode = (SKSpriteNode *)[self childNodeWithName:@"//spacePlayer"];
     
     // Get label node from scene and store it for use later
 
@@ -51,7 +52,7 @@
 
 -(void)update:(CFTimeInterval)currentTime {
     // Called before each frame is rendered
-    SKShapeNode *n = _playerNode;
+    SKSpriteNode *n = playerNode;
     n.position = CGPointMake(x, y);
 }
 
